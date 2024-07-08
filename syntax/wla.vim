@@ -41,4 +41,5 @@ hi def link wlaSpecial          Special
 hi def link wlaString           String
 hi def link wlaIdentifier       Function
 hi def link wlaSubIdentifier    Identifier
+hi def link wlaChildIdentifier  Identifier
 hi def link wla65xxArgWidth     Label
