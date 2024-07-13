@@ -2,7 +2,7 @@
 " Language: WLA-DX 65816 Assembly
 " Maintainer: Michiel Nijs
 " Adapted from wla-vim
-" Last Change: 2024-07-08
+" Last Change: 2024-07-13
 
 if exists("b:current_syntax")
 	finish
@@ -43,3 +43,6 @@ hi def link wlaIdentifier       Function
 hi def link wlaSubIdentifier    Identifier
 hi def link wlaChildIdentifier  Identifier
 hi def link wla65xxArgWidth     Label
+
+autocmd FileType wla setlocal commentstring=; %s
+
