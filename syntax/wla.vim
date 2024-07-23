@@ -44,5 +44,5 @@ hi def link wlaSubIdentifier    Identifier
 hi def link wlaChildIdentifier  Identifier
 hi def link wla65xxArgWidth     Label
 
-autocmd FileType wla set commentstring=; %s
+autocmd FileType wla set commentstring="; %s"
 
